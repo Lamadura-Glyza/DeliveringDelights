@@ -5,6 +5,7 @@ Food Delivery Mobile App.
 * Proactive Notifications
 * Self-Service Problem Reporting 
 * Order Tracking
+* User Feedback and Rating System
 
 # Course Overview
 * Basic React Native Components
@@ -18,13 +19,13 @@ Food Delivery Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/onboarding.jpg">  
+<img src="assets/images/screenshot/onboarding.png">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.png">  
+<img src="assets/images/screenshot/sign-up.png">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.png">  
+<img src="assets/images/screenshot/sign-in.png">  
 
 # Tabs Screen
 <img src="assets/images/screenshot/tabs.png">  
