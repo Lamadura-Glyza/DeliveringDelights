@@ -4,18 +4,29 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import COLORS from '../../constants/colors';
 import { Ionicons } from "@expo/vector-icons";
 import Checkbox from "expo-checkbox"
-import Button from '../../components/CustomButton';
+import CustomButton from '../../components/CustomButton';
 import { router, Redirect, Link } from 'expo-router'
 import React, { useState } from 'react'
 import { StatusBar } from 'expo-status-bar';
 
-
 const SignUp = ({}) => {
     const [isPasswordShown, setIsPasswordShown] = useState(false);
     const [isChecked, setIsChecked] = useState(false);
+
+//form field
+const [form, setForm]=useState({
+    username:'',
+    email: '',
+    password:''
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const submit = () =>{}
+
+
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white, paddingHorizontal: 10, marginTop: 30}}>
             <StatusBar barStyle="dark-content"/>
+
                 <View style={{marginTop: 20, backgroundColor: COLORS.white}}>
                     <Text style={{
                         fontSize: 30,
@@ -129,7 +140,7 @@ const SignUp = ({}) => {
                 </View>
                 </View>
 
-                <Button
+                <CustomButton
                     title="Sign Up"
                     filled
                     style={{
@@ -138,7 +149,7 @@ const SignUp = ({}) => {
                         marginBottom: 4,
                         backgroundColor: COLORS.black,
                         borderColor: COLORS.black}}
-                    onPress={() => router.push('../home')}/>
+                    onPress={() => router.push('../sign-in')}/>
 
                 <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: 20 }}>
                     <View

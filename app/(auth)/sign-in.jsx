@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import COLORS from '../../constants/colors';
 import { Ionicons } from "@expo/vector-icons";
 import Checkbox from "expo-checkbox"
-import Button from '../../components/CustomButton';
+import CustomButton from '../../components/CustomButton';
 import { router, Redirect, Link } from 'expo-router'
 import { StatusBar } from 'expo-status-bar';
 
@@ -106,7 +106,7 @@ const SignIn = ({ navigation }) => {
                     <Text style={{color: COLORS.white}}>Remember Me</Text>
                 </View>
 
-                <Button
+                <CustomButton
                     title="Login"
                     filled
                     style={{
