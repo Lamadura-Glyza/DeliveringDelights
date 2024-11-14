@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput,Image,  FlatList, StyleSheet, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Button from '../components/Button';
+import Button from '../components/CustomButton';
 import COLORS from '../constants/colors';
 import { router } from 'expo-router';
 

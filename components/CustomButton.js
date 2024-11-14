@@ -2,7 +2,7 @@ import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 import React from 'react'
 import COLORS from '../constants/colors'
 
-const Button = (props) => {
+const CustomButton = (props) => {
     const filledBgColor = props.color || COLORS.primary;
     const outlinedColor = COLORS.white;
     const bgColor = props.filled ? filledBgColor : outlinedColor;
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
         
     }
 })
-export default Button
+export default CustomButton
