@@ -33,4 +33,4 @@ Food Delivery Mobile App.
 # Walkthrough
 [DeliveringDelights](https://youtu.be/Pi_CR6bGphA?si=ZV1vFWx_4d4JpCUb)
 
-* In this video is the walkthrough of the Mobile App **DeliveringDelight's** Source Code and User Interface. This video highlights the key project files such as; **(auth)**, **(tab)** **CustomButton**, **FormField**, **Onboarding Screen** and **Index Screen**.
+* This video demonstrates the source code and user interface of the DeliveringDelight mobile app. The main project files mentioned in this video include **(auth)**, **(tab)**, **CustomButton**, **FormField**, **Onboarding Screen**, and **Index Screen**.
