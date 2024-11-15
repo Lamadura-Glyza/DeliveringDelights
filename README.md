@@ -29,3 +29,6 @@ Food Delivery Mobile App.
 
 # Tabs Screen
 <img src="assets/images/screenshot/tabs.png">  
+
+# Walkthrough
+[DeliveringDelights](https://youtu.be/qv8vzBYoSQo)
